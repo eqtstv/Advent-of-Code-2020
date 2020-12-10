@@ -14,7 +14,6 @@ parsed_data = [
 
 valid = 0
 for i in parsed_data:
-    print(i)
     letter = i[1]
     pos1 = int(i[0][0]) - 1
     pos2 = int(i[0][1]) - 1
